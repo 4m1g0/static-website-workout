@@ -1,0 +1,105 @@
+body {
+    background-color:#888;
+    padding:0px;
+    margin:0px;
+}
+
+.wrapper-main {
+    margin:0px auto;
+    background-color:#FFF;
+    width:900px;
+}
+
+.header-image {
+    width:900px;
+    height:200px;
+    background-image:url('../images/13_basicas.jpg');
+    font-size:40px;
+    color:#fff;
+}
+
+.header-image img {
+    margin:20px;
+}
+
+.menu-top {
+    list-style:none;
+    padding:0px;
+    margin: 170px 0px 0px 0px;
+    width:900px;
+    position:absolute;
+}
+
+.menu-top li {
+    float: left;
+    padding:10px 0px;
+    margin: auto;
+    background-image:url('../images/menu.png');
+    width:225px;
+    text-align:center;
+    text-shadow: -1px -1px #333;
+    height:19px;
+    font:normal 18px Arial, Verdana, serif;
+    color:rgb(255, 189, 21);
+}
+
+.menu-top li:hover {
+    background-position:0px -39px;
+}
+
+.menu-top li.active {
+    background-position:0px -78px;
+}
+
+.left-column {
+    padding:20px;
+    float:left;
+    width:210px;
+    border-right:1px solid #999;
+}
+
+.body-text {
+    padding:40px;
+    margin-left:250px;
+}
+
+.copy {
+    text-align:center;
+    margin: 20px auto;
+    padding: 20px;
+    width:400px;
+    border-style:solid;
+    border-width:1px;
+}
+
+td.main {
+    background-color: #E9CC98;
+}
+
+td.error {
+    background-color: #ff8888;
+}
+
+a.irarriba {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+
+table.precios {
+    margin-top: -5px;
+}
+
+.nofloat{
+	clear: both;
+}
+
+.img_right {
+    float:right;
+}
+
+.img_left {
+    float:left;
+}
+
+
